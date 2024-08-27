@@ -1,4 +1,6 @@
 import BookCarousel from "@/features/books/BookCarousel";
+import DashboardList from "@/features/dashboard/DashboardList";
+import { overdueBooks } from "@/features/dashboard/data/overdueBooks";
 import InfoCard from "@/features/dashboard/InfoCard/InfoCard";
 import { infoCardData } from "@/features/dashboard/InfoCard/infoCardData";
 import UsersList from "@/features/users/UsersList";
@@ -35,6 +37,9 @@ function index() {
         <section className="flex items-center justify-center">
           <BookCarousel />
         </section>
+
+        {/* Overdue books list */}
+        <DashboardList caption="Overdue Book List" data={overdueBooks} />
       </main>
     </div>
   );
