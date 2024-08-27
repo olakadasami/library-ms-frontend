@@ -20,7 +20,7 @@ function InfoCard({ Icon, number, title }: TInfoCard) {
   return (
     <Card
       x-chunk="dashboard-05-chunk-1"
-      className="rounded-lg p-4 flex justify-between gap-8"
+      className="rounded-lg p-4 flex justify-between gap-8 bg-background w-48"
     >
       <CardHeader className="p-0 gap-2 justify-between">
         <CardTitle className="text-lg sm:text-xl md:text-2xl lg:text-4xl">
