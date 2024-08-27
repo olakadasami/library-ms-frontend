@@ -1,5 +1,6 @@
 import InfoCard from "@/features/dashboard/InfoCard/InfoCard";
 import { infoCardData } from "@/features/dashboard/InfoCard/infoCardData";
+import UsersList from "@/features/users/UsersList";
 import React from "react";
 
 function index() {
@@ -14,6 +15,15 @@ function index() {
           {infoCardData.map((item) => (
             <InfoCard key={item.title} {...item} />
           ))}
+        </div>
+
+        <div className="grid grid-cols-2">
+          <div>
+            <UsersList />
+          </div>
+          <div>
+            <UsersList />
+          </div>
         </div>
       </main>
     </div>
