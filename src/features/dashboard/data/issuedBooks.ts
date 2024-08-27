@@ -1,0 +1,42 @@
+export const issuedBooksData = [
+  {
+    "User ID": "10021",
+    Book: "Ancestor Trouble",
+    Author: "Maud Newton",
+    "Issue Date": "20 Dec, 2022",
+    "Return Date": "21 Dec, 2022",
+    Details: "View Details",
+  },
+  {
+    "User ID": "12034",
+    Book: "Life Is Everywhere",
+    Author: "Lucy Ives",
+    "Issue Date": "23 Dec, 2022",
+    "Return Date": "26 Dec, 2022",
+    Details: "View Details",
+  },
+  {
+    "User ID": "22587",
+    Book: "Stroller",
+    Author: "Amanda Parrish",
+    "Issue Date": "23 Dec, 2022",
+    "Return Date": "28 Dec, 2022",
+    Details: "View Details",
+  },
+  {
+    "User ID": "53272",
+    Book: "The Secret Syllabus",
+    Author: "Jay Patel & Kara Rutherford",
+    "Issue Date": "31 Dec, 2022",
+    "Return Date": "3 Jan, 2023",
+    Details: "View Details",
+  },
+  {
+    "User ID": "96787",
+    Book: "A Brief History of Time",
+    Author: "Stephen Hawking",
+    "Issue Date": "1 Jan, 2023",
+    "Return Date": "6 Jan, 2023",
+    Details: "View Details",
+  },
+];
