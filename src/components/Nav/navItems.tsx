@@ -16,27 +16,27 @@ export const navItems = [
   },
   {
     title: "Recents",
-    href: "/dashboard/recent",
+    href: "/recents",
     Icon: RotateCcw,
   },
   {
     title: "Books",
-    href: "/dashboard/books",
+    href: "/books",
     Icon: BookOpen,
   },
   {
     title: "Users",
-    href: "/dashboard/users",
+    href: "/users",
     Icon: UsersRound,
   },
   {
     title: "Settings",
-    href: "/dashboard/settings",
+    href: "/settings",
     Icon: Settings,
   },
   {
     title: "Help",
-    href: "/dashboard/help",
+    href: "/help",
     Icon: CircleHelp,
   },
   {

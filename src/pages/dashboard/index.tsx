@@ -42,7 +42,12 @@ function index() {
         </section>
 
         {/* Overdue books list */}
-        <DashboardList caption="Overdue Book List" data={overdueBooks} />
+        <DashboardList
+          caption="Overdue Book List"
+          data={overdueBooks}
+          listAll
+          listAllHref={"dashboard/books/overdue"}
+        />
 
         {/* Book list and bar chart */}
         <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
@@ -52,6 +57,8 @@ function index() {
               caption="Issued Books"
               action={handleNewBookIssue}
               actionCaption="New issue"
+              listAll
+              listAllHref={"dashboard/books/issued"}
             />
           </div>
           <div className="md:col-span-2 ">
