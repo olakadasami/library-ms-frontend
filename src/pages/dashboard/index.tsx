@@ -46,7 +46,7 @@ function index() {
           caption="Overdue Book List"
           data={overdueBooks}
           listAll
-          listAllHref={"dashboard/books/overdue"}
+          listAllHref={"books/overdue"}
         />
 
         {/* Book list and bar chart */}
@@ -58,7 +58,7 @@ function index() {
               action={handleNewBookIssue}
               actionCaption="New issue"
               listAll
-              listAllHref={"dashboard/books/issued"}
+              listAllHref={"books/issued"}
             />
           </div>
           <div className="md:col-span-2 ">

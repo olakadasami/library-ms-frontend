@@ -12,16 +12,16 @@ function index() {
           <DashboardList
             data={issuedBooksData.slice(0, 2)}
             caption="All Books"
-            action={handleNewBookIssue}
-            actionCaption="View all"
+            listAll
+            listAllHref={"books/all"}
           />
         </div>
         <div className="bg-slate-50">
           <DashboardList
             caption="Overdue Book List"
             data={overdueBooks.slice(0, 2)}
-            action={handleNewBookIssue}
-            actionCaption="View all"
+            listAll
+            listAllHref={"books/overdue"}
           />
         </div>
       </section>
@@ -33,6 +33,8 @@ function index() {
             caption="Issued Books"
             action={handleNewBookIssue}
             actionCaption="New issue"
+            listAll
+            listAllHref={"books/issued"}
           />
         </div>
         <div className="bg-slate-50">
